@@ -1,0 +1,59 @@
+1. Tính tổng 2 số nhập vào từ người dùng, hiển thị kết quả tổng đó ra màn hình.
+BEGIN
+	INPUT a,b
+	c = a + b
+	DISPLAY c
+END
+
+2. Xác định một số nhập từ bàn phím là số lớn hoặc nhỏ hơn bằng 5, 
+hiển thị kết quả ra màn hình.
+
+BEGIN
+	INPUT a
+	IF a > 5
+	OUTPUT lớn hơn 5
+	END IF
+	ELSE
+	OUTPUT nhỏ hơn = 5
+END
+
+
+3. In ra màn hình 100 lần chuỗi "C0622G1"
+cách 1:
+BEGIN
+	DISPLAY "C0622G1"
+	DISPLAY "C0622G1"
+	DISPLAY "C0622G1"
+	DISPLAY "C0622G1"
+	DISPLAY "C0622G1"
+	DISPLAY "C0622G1"
+	DISPLAY "C0622G1"....
+	DISPLAY "C0622G1"
+	DISPLAY "C0622G1"
+	DISPLAY "C0622G1"
+	DISPLAY "C0622G1" -> 100 lần
+END
+
+cách 2:
+
+BEGIN
+	count = 0
+	WHILE count < 100
+	DO
+		count = count + 1
+		DISPLAY "C0622G1"
+	END DO
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
